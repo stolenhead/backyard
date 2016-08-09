@@ -23,7 +23,7 @@ a{
 	color: blue;
 }
 .size1{
- font-size: 320%;
+ font-size: 420%;
 }
 .size2{
 	font-size: 90%;
@@ -38,20 +38,26 @@ a{
 	padding-left: 10%;
 }
 .caja{
-	padding: 10%;
+	box-sizing: border-box;
+	padding: 11%;
 }
 .caja2{
-	margin-top: 11%;
-	padding: 1% ;
+	margin-top: 7%;
+	padding: 5% ;
+	
+}
+.formulario{
 	box-sizing: border-box;
 	background-color: #9A9A9A;
-	border-radius: 6%;
+	border-radius: 7%;
+	padding: 5% 0% 8% 0%;
 }
+
 .input{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	margin-top: 2%;
-	margin-left: 3%;
+	margin-left: 8%;
 	padding: 1%;
 }
 #blue{
