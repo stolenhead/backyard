@@ -1,0 +1,80 @@
+.logo {
+	width: 30%;
+}
+.back{
+	background-color: #808080;
+    height: auto;
+}
+.left{
+ text-align: center;
+ padding-top: 1%;
+}
+.hover:hover {
+ color: orange ;
+}
+.hover{
+	color: #DCD9D7;
+}
+h1 , h2  {
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.size1{
+ font-size: 320%;
+}
+.size2{
+	font-size: 90%;
+}
+.size3{
+	font-size: 130%;
+	text-align: center;
+	color: #C9C3BF;
+}
+.size4{
+	color: #CDCED0;
+	padding-left: 10%;
+}
+.caja{
+	padding: 10%;
+}
+.caja2{
+	margin-top: 11%;
+	padding: 1% ;
+	box-sizing: border-box;
+	background-color: #9A9A9A;
+	border-radius: 6%;
+}
+.input{
+	width: 90%;
+	height: auto;
+	margin-top: 2%;
+	margin-left: 3%;
+	padding: 1%;
+}
+#blue{
+	background-color: #3EB0F7;
+	color: white;
+}
+@media(max-width:535px){
+	div .caja2{
+		padding: 3%;
+		margin:  5%;
+		width: 90%;
+		margin: 5%;
+	}
+	.left{
+        text-align: center;
+        padding-bottom: 4%;
+}
+.caja{
+	width: 100% !important;
+	padding: 10% 10% 3% 10%;
+}
+.logo{
+	width:70% !important;
+	padding: 1%;
+}
+}
